@@ -1,0 +1,23 @@
+.Header{
+    width: 100vw;
+    background: brown;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+span{
+    margin: 10px;  
+}
+.Cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(48, 3, 3);
+    border-radius: 10px;
+}
+.Cart h3{
+    margin: 10px;
+}

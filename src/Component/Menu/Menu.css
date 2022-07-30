@@ -1,0 +1,58 @@
+.Menu{
+    width: 100vw;
+    background-color: gray;
+    background-image: url("https://tienganhnghenoi.vn/wp-content/uploads/2021/03/eat-clean-bai-1-a.jpg");
+    background-size: cover;
+    padding: 40px 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.mealList{
+    width: 800px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+}
+.food-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 150px;
+}
+.food-list button{
+    background-color: brown;
+}
+
+.food-list img{
+    width: 100px;
+    height: 100px;
+
+}
+.left-item{
+    display: flex;
+    align-items: center;
+}
+.right-item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+}
+.right-item span{
+    padding: 0%;
+}
+.right-item button{
+    width: 80px;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 2px;
+}
+.right-item input{
+    width: 40px;
+    height: 20px;
+    font-size: 20px;
+    margin: 2px;
+}
